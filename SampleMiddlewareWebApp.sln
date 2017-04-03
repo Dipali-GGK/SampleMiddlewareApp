@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMiddlewareWebApp", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HigiWebAPi", "HigiWebAPi\HigiWebAPi.csproj", "{7F27BB0C-4821-4B04-8A61-71EB6FECB91F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebJob", "..\DemoWebJob\DemoWebJob\DemoWebJob.csproj", "{0E4F486E-9605-47F4-9712-7F9AB7117874}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob", "WebJob\WebJob.csproj", "{C1756C88-C006-4B6D-923C-95295125D16B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{7F27BB0C-4821-4B04-8A61-71EB6FECB91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F27BB0C-4821-4B04-8A61-71EB6FECB91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F27BB0C-4821-4B04-8A61-71EB6FECB91F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E4F486E-9605-47F4-9712-7F9AB7117874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E4F486E-9605-47F4-9712-7F9AB7117874}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E4F486E-9605-47F4-9712-7F9AB7117874}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E4F486E-9605-47F4-9712-7F9AB7117874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1756C88-C006-4B6D-923C-95295125D16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1756C88-C006-4B6D-923C-95295125D16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1756C88-C006-4B6D-923C-95295125D16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1756C88-C006-4B6D-923C-95295125D16B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
