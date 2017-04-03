@@ -12,9 +12,9 @@ namespace WebJob
     {
         // This function will get triggered/executed when a new message is written 
         // on an Azure Queue called queue.
-        public async static Task ProcessQueueMessage([QueueTrigger("HigiDemoServiceBusQueue")] string message, TextWriter logger)
+        public async static Task ProcessQueueMessage([QueueTrigger("HigiDemoServiceBusQueue")] string message, TextWriter log)
         {
-            await logger.WriteLineAsync(message);
+            await log.WriteLineAsync(message);
         }
     }
 }
