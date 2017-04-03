@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMiddlewareWebApp", "SampleMiddlewareWebApp\SampleMiddlewareWebApp.csproj", "{E2A100D4-CDE2-44C5-81E4-3E489E2ADCB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HigiWebAPi", "HigiWebAPi\HigiWebAPi.csproj", "{7F27BB0C-4821-4B04-8A61-71EB6FECB91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebJob", "..\DemoWebJob\DemoWebJob\DemoWebJob.csproj", "{0E4F486E-9605-47F4-9712-7F9AB7117874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2A100D4-CDE2-44C5-81E4-3E489E2ADCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A100D4-CDE2-44C5-81E4-3E489E2ADCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A100D4-CDE2-44C5-81E4-3E489E2ADCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A100D4-CDE2-44C5-81E4-3E489E2ADCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F27BB0C-4821-4B04-8A61-71EB6FECB91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F27BB0C-4821-4B04-8A61-71EB6FECB91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F27BB0C-4821-4B04-8A61-71EB6FECB91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F27BB0C-4821-4B04-8A61-71EB6FECB91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4F486E-9605-47F4-9712-7F9AB7117874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4F486E-9605-47F4-9712-7F9AB7117874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4F486E-9605-47F4-9712-7F9AB7117874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4F486E-9605-47F4-9712-7F9AB7117874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
