@@ -10,7 +10,7 @@
             cache: false,
             success: function (data) {
                 
-                alert(data.result);
+                alert(data.message);
             }
 
         });

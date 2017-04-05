@@ -22,7 +22,7 @@ namespace SampleMiddlewareWebApp.Controllers
         {
             string result=string.Empty;
             HttpClient cons = new HttpClient();
-            cons.BaseAddress = new Uri("http://higiwebapisample.azurewebsites.net/");
+            cons.BaseAddress = new Uri("http://mytrainingwebapisample.azurewebsites.net/");
             cons.DefaultRequestHeaders.Accept.Clear();
             cons.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
             HttpResponseMessage res = await cons.GetAsync("api/Account/Message/"+msg);
@@ -32,7 +32,8 @@ namespace SampleMiddlewareWebApp.Controllers
                 result = "Message placed in Queue";
             }
 
-                return  Json(result,JsonRequestBehavior.AllowGet);
+                return Json(new { success = true, message = result },
+                JsonRequestBehavior.AllowGet);
         }
 
        

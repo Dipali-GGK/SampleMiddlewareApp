@@ -138,8 +138,14 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\HigiDevTest1 - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\HigiDevTest1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\HigiDevTest1 - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\HigiDevTest1 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\HigiSampleWebApp - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\HigiSampleWebApp - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\HigiTrainingSample - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\HigiTrainingSample - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
