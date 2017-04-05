@@ -1,14 +1,54 @@
 ﻿
-@{
-    ViewBag.Title = "Index";
-}
-
-<h2>Index</h2>
+@*<h2>Index</h2>
 Message:<input type="text" id="msg" />
 <button id="Send">Send</button>
 
-
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="~/Scripts/SendMessge.js"></script>
+<script src="~/Scripts/SendMessge.js"></script>*@
 
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+
+    <title>Index</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="page-header">
+            <h1> Demo</h1>
+        </div>
+
+        <form class="form-inline" novalidate id="fetch-user-form">
+            <div class="form-group">
+                <label class="sr-only" for="region-field">Message</label>
+                <div class="input-group">
+                    <div class="input-group-addon">Message</div>
+                    <input type="text" class="form-control" id="msg" placeholder="Enter message">
+                </div>
+            </div>
+            
+            <button type="button" class="btn btn-success" id="Send">Send message</button>
+        </form>
+
+        <div id="message-list">
+
+        </div>
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="~/Scripts/SendMessge.js"></script>
+</body>
+</html>
