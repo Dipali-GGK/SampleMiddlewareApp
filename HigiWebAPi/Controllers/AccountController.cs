@@ -16,17 +16,17 @@ namespace HigiWebAPi.Controllers
         [System.Web.Http.Route("Message/{msg}")]
         public void GetMessage(string msg)
         {
-            //var connectionString = "Endpoint=sb://higidemoservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=yGkSw3+vqyU4gHw0QGEdv+ZCfPtolh1OHYgYbhN6Qfs=";
-            //var queueName = "HigiDemoServiceBusQueue";
+            var connectionString = "Endpoint=sb://higisampleservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=xzrkjYmHwS/Fmi+KPFeqnQQUdAav24GAD+s4wXmXrfY=";
+            var queueName = "middlewarequeue";
 
-            //var client = QueueClient.CreateFromConnectionString(connectionString, queueName);
-            //var message = new BrokeredMessage(msg);
+            var client = QueueClient.CreateFromConnectionString(connectionString, queueName);
+            var message = new BrokeredMessage(msg);
 
-            //client.Send(message);
+            client.Send(message);
             var StorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=storagetraining;AccountKey=FCg16uCmCV1S5/eoM+eWCnzaQPAz4LfLdB7gNhd1KRBl+8OJ1fq6hyTlYaROGdiA0NptMulMmgks3bITKM9iCA==;EndpointSuffix=core.windows.net";
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(StorageConnectionString);
 
-            // Create the queue client.
+            //// Create the queue client.
             CloudQueueClient queueClient = storageAccount.CreateCloudQueueClient();
 
             // Retrieve a reference to a container.
@@ -38,8 +38,8 @@ namespace HigiWebAPi.Controllers
 
 
             // Create a message and add it to the queue.
-            CloudQueueMessage message = new CloudQueueMessage(msg);
-            queue.AddMessage(message);
+            CloudQueueMessage message1 = new CloudQueueMessage(msg);
+            queue.AddMessage(message1);
         }
     }
 }
