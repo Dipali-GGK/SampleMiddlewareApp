@@ -14,6 +14,7 @@ namespace WebJob
         // on an Azure Queue called queue.
         public async static Task ProcessQueueMessage([QueueTrigger("HigiDemoServiceBusQueue")] string message, TextWriter log)
         {
+            //await until message writes to log
             await log.WriteLineAsync(message);
         }
     }
